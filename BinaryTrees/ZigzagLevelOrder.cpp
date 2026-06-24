@@ -3,21 +3,6 @@
 // Time: O(N) where N is the number of nodes in the binary tree
 // Space: O(N) for storing tree nodes in the deque
 
-#include <vector>
-#include <deque>
-using namespace std;
-
-#ifndef TREE_NODE_DEFINITION
-#define TREE_NODE_DEFINITION
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-};
-#endif
 
 class Solution {
 public:

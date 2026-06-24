@@ -3,21 +3,6 @@
 // Time: O(N) where N is the number of nodes in the binary tree
 // Space: O(H) recursion stack space where H is the tree height
 
-#include <vector>
-using namespace std;
-
-#ifndef NODE_DEFINITION
-#define NODE_DEFINITION
-struct Node {
-    int data;
-    Node* left;
-    Node* right;
-    Node(int val) {
-        data = val;
-        left = right = nullptr;
-    }
-};
-#endif
 
 class Solution {
 private:
