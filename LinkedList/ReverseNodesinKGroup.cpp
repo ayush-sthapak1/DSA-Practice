@@ -1,4 +1,5 @@
 // LeetCode 25: Reverse Nodes in k-Group
+// Link: https://leetcode.com/problems/reverse-nodes-in-k-group/
 // Approach: Iterative reversal using dummy node
 // Time Complexity: O(n)
 // Space Complexity: O(1)

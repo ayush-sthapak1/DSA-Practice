@@ -1,4 +1,5 @@
 // LeetCode 875: Koko Eating Bananas
+// Link: https://leetcode.com/problems/koko-eating-bananas/
 // Approach: Binary search on eating speed
 // Time Complexity: O(n log max(piles))
 // Space Complexity: O(1)

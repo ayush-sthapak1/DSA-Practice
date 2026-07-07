@@ -1,4 +1,5 @@
 // LeetCode 128: Longest Consecutive Sequence
+// Link: https://leetcode.com/problems/longest-consecutive-sequence/
 // Approach: Use an unordered_set to allow O(1) lookups.
 // Start counting only from numbers that are the beginning of a sequence
 // (i.e., num - 1 does not exist).

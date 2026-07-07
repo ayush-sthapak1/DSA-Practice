@@ -1,4 +1,5 @@
 // LeetCode 229: Majority Element II
+// Link: https://leetcode.com/problems/majority-element-ii/
 // Approach: Extended Boyer–Moore Voting Algorithm
 // At most two elements can appear more than ⌊n/3⌋ times
 // Time Complexity: O(n)

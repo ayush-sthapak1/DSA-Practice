@@ -1,4 +1,5 @@
 // LC 100: Same Tree (Easy)
+// Link: https://leetcode.com/problems/same-tree/
 // Approach: Recursive Depth-First Search (DFS) with Short-Circuit Logic
 // Time: O(N) where N is the minimum number of nodes between the two trees
 // Space: O(H) where H is the height of the smaller tree (recursion stack depth)

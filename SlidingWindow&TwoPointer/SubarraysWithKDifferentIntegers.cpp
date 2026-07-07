@@ -1,4 +1,5 @@
 // LC 992: Subarrays with K Different Integers (Hard)
+// Link: https://leetcode.com/problems/subarrays-with-k-different-integers/
 // Approach: Optimal sliding window using the "At Most K" helper function trick.
 // Mathematically: exactly(K) = atMost(K) - atMost(K - 1)
 // Time: O(N) dual-pass

@@ -1,4 +1,5 @@
 // LC 257: Binary Tree Paths (Easy)
+// Link: https://leetcode.com/problems/binary-tree-paths/
 // Approach: Backtracking DFS with a shared path vector to avoid copying strings.
 // Time: O(N) where N is the number of nodes in the binary tree.
 // Space: O(H) auxiliary space for the recursion stack where H is the height of the tree.

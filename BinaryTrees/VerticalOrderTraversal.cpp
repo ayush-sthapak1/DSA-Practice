@@ -1,4 +1,5 @@
 // LC 987: Vertical Order Traversal of Binary Tree (Hard)
+// Link: https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 // Approach: Coordinate-based DFS with two-pass logic. 
 //           Pass 1: Find min/max column index dynamically.
 //           Pass 2: Collect nodes into 2D vector offset using (row, value) pairs. Sort each column.

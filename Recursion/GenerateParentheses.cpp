@@ -1,4 +1,5 @@
 // LC 22: Generate Parentheses
+// Link: https://leetcode.com/problems/generate-parentheses/
 // Approach: Backtracking with open/closed counters
 // Time: O(4^n / √n)  Space: O(n)
 

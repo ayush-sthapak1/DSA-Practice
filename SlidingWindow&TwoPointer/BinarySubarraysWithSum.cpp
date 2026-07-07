@@ -1,4 +1,5 @@
 // LC 930: Binary Subarrays With Sum (Medium)
+// Link: https://leetcode.com/problems/binary-subarrays-with-sum/
 // Approach: Optimal sliding window using the "At Most K" helper function trick: exactly(K) = atMost(K) - atMost(K - 1)
 // Time: O(N) dual-pass
 // Space: O(1) auxiliary

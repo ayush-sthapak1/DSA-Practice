@@ -1,4 +1,5 @@
 // LC 700: Search in a Binary Search Tree (Easy)
+// Link: https://leetcode.com/problems/search-in-a-binary-search-tree/
 // Approach: Iterative search using BST property.
 // Time: O(H) where H is the height of the tree (O(log N) for balanced trees, O(N) for skewed trees).
 // Space: O(1) auxiliary space.

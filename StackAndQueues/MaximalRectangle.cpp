@@ -1,4 +1,5 @@
 // LeetCode 85: Maximal Rectangle
+// Link: https://leetcode.com/problems/maximal-rectangle/
 // Approach: Histogram + Monotonic Stack (LC 84)
 // Time Complexity: O(rows * cols)
 // Space Complexity: O(cols)

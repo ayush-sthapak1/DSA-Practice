@@ -1,4 +1,5 @@
 // LeetCode 234: Palindrome Linked List
+// Link: https://leetcode.com/problems/palindrome-linked-list/
 // Approach: Fast & slow pointer + reverse second half
 // Time Complexity: O(n)
 // Space Complexity: O(1)

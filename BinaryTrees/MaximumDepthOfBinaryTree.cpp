@@ -1,4 +1,5 @@
 // LC 104: Maximum Depth of Binary Tree (Easy)
+// Link: https://leetcode.com/problems/maximum-depth-of-binary-tree/
 // Approach: Recursive Depth-First Search (DFS) / Post-Order Aggregation
 // Time: O(N) where N is the number of nodes
 // Space: O(H) where H is the height of the tree (recursion stack depth)

@@ -1,4 +1,5 @@
 // LC 101: Symmetric Tree (Easy)
+// Link: https://leetcode.com/problems/symmetric-tree/
 // Approach: Recursive Mirror DFS.
 // Time: O(N) where N is the number of nodes in the binary tree.
 // Space: O(H) auxiliary space for the recursion stack where H is the height of the tree.

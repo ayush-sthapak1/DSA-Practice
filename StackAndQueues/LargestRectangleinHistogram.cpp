@@ -1,4 +1,5 @@
 // LeetCode 84: Largest Rectangle in Histogram
+// Link: https://leetcode.com/problems/largest-rectangle-in-histogram/
 // Approach: Monotonic Increasing Stack
 // Time Complexity: O(n)
 // Space Complexity: O(n)

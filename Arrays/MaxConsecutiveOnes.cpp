@@ -1,4 +1,5 @@
 // LeetCode 485: Max Consecutive Ones
+// Link: https://leetcode.com/problems/max-consecutive-ones/
 // Approach: Traverse the array and count consecutive ones
 // Time Complexity: O(n)
 // Space Complexity: O(1)

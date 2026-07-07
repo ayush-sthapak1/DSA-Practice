@@ -1,4 +1,5 @@
 // LeetCode 410: Split Array Largest Sum
+// Link: https://leetcode.com/problems/split-array-largest-sum/
 // Approach: Binary search on maximum subarray sum
 // Time Complexity: O(n log sum(nums))
 // Space Complexity: O(1)

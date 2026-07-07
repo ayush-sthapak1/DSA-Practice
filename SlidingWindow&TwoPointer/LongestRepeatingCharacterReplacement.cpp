@@ -1,4 +1,5 @@
 // LC 424: Longest Repeating Character Replacement (Medium)
+// Link: https://leetcode.com/problems/longest-repeating-character-replacement/
 // Approach: Optimal Sliding Window (Two-Pointer) with Frequency Array and Historical maxFreq
 // Time: O(N) single-pass
 // Space: O(1) auxiliary (size 26 frequency array)

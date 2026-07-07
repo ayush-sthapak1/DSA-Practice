@@ -1,4 +1,5 @@
 // LC 701: Insert into a Binary Search Tree (Medium)
+// Link: https://leetcode.com/problems/insert-into-a-binary-search-tree/
 // Approach: Iterative tree search down to the insertion point.
 // Time: O(H) where H is the height of the tree (O(log N) average, O(N) worst case).
 // Space: O(1) auxiliary space.

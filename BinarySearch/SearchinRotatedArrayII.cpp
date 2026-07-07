@@ -1,4 +1,5 @@
 // LeetCode 81: Search in Rotated Sorted Array II
+// Link: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 // Approach: Modified binary search with duplicate handling
 // Time Complexity: O(log n) average, O(n) worst case
 // Space Complexity: O(1)

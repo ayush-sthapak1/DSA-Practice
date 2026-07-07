@@ -1,4 +1,5 @@
 // LC 1373: Maximum Sum BST in Binary Tree (Hard)
+// Link: https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/
 // Approach: Bottom-up recursive postorder DFS.
 //           Each node collects isBST, min, max, and sum from its children.
 //           Updates a class member 'maxSum' only when a valid BST is identified.

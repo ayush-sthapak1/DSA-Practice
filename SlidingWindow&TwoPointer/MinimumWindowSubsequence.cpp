@@ -1,4 +1,5 @@
 // LC 727: Minimum Window Subsequence (Hard)
+// Link: https://leetcode.com/problems/minimum-window-subsequence/
 // Approach: Optimal Sliding Window (Two-Pointer Forward-Backward Match & Reset)
 // Time: O(N * M) worst case, O(N) average case
 // Space: O(1) auxiliary

@@ -1,4 +1,5 @@
 // LeetCode 1283: Find the Smallest Divisor Given a Threshold
+// Link: https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
 // Approach: Binary search on divisor
 // Time Complexity: O(n log max(nums))
 // Space Complexity: O(1)

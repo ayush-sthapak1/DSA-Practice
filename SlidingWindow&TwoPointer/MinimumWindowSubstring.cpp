@@ -1,4 +1,5 @@
 // LC 76: Minimum Window Substring (Hard)
+// Link: https://leetcode.com/problems/minimum-window-substring/
 // Approach: Optimal Sliding Window (Two-Pointer) with O(1) Match Counter (reqCount) and Index Tracking
 // Time: O(N + M) single-pass
 // Space: O(1) auxiliary (size 128 ASCII frequency array)

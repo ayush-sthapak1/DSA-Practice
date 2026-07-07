@@ -1,4 +1,5 @@
 // LeetCode 4: Median of Two Sorted Arrays
+// Link: https://leetcode.com/problems/median-of-two-sorted-arrays/
 // Approach: Binary search on partition
 // Time Complexity: O(log(min(n1, n2)))
 // Space Complexity: O(1)

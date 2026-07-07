@@ -1,4 +1,5 @@
 // LeetCode 1552: Magnetic Force Between Two Balls
+// Link: https://leetcode.com/problems/magnetic-force-between-two-balls/
 // Approach: Binary search on minimum distance (maximize)
 // Time Complexity: O(n log(maxDistance))
 // Space Complexity: O(1)

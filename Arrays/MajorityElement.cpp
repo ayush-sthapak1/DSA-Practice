@@ -1,4 +1,5 @@
 // LeetCode 169: Majority Element
+// Link: https://leetcode.com/problems/majority-element/
 // Approach: Boyer–Moore Voting Algorithm
 // Time Complexity: O(n)
 // Space Complexity: O(1)

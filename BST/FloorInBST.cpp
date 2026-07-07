@@ -1,4 +1,5 @@
 // GFG: Floor in BST (Medium)
+// Link: https://www.geeksforgeeks.org/problems/floor-in-bst/1
 // Approach: Iterative binary search on BST.
 // Time: O(H) where H is the tree height (O(log N) average, O(N) worst case).
 // Space: O(1) auxiliary space.

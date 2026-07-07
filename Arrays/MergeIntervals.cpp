@@ -1,4 +1,5 @@
 // LeetCode 56: Merge Intervals
+// Link: https://leetcode.com/problems/merge-intervals/
 // Approach: Sort intervals by start time and merge overlapping intervals
 // Time Complexity: O(n log n)  -> sorting dominates
 // Space Complexity: O(n)       -> output array

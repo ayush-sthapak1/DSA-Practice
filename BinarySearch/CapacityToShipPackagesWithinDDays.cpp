@@ -1,4 +1,5 @@
 // LeetCode 1011: Capacity To Ship Packages Within D Days
+// Link: https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
 // Approach: Binary search on shipping capacity
 // Time Complexity: O(n log sum(weights))
 // Space Complexity: O(1)

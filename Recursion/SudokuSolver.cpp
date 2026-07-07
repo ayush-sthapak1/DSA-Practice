@@ -1,4 +1,5 @@
 // LC 37: Sudoku Solver (Hard)
+// Link: https://leetcode.com/problems/sudoku-solver/
 // Approach: Grid Backtracking with Optimal 9-Iteration Single-Loop Safety Check
 // Time: O(9^k) where k is the number of empty cells (at most 81)
 // Space: O(81) recursion stack depth

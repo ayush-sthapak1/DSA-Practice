@@ -1,4 +1,5 @@
 // LC 2385: Amount of Time for Binary Tree to Be Infected (Medium)
+// Link: https://www.geeksforgeeks.org/problems/burning-tree/1
 // GFG: Burning Tree (Hard)
 // Approach: Path-based DFS. 
 //           We trace the path from root to the start/target node, then find the maximum distance 

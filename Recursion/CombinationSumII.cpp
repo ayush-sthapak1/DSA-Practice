@@ -1,4 +1,5 @@
 // LC 40: Combination Sum II
+// Link: https://leetcode.com/problems/combination-sum-ii/
 // Approach: Backtracking — no reuse + skip adjacent duplicates on skip branch
 // Time: O(2^n)  Space: O(n)
 

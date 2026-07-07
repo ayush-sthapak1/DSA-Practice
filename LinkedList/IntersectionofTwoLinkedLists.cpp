@@ -1,4 +1,5 @@
 // LeetCode 160: Intersection of Two Linked Lists
+// Link: https://leetcode.com/problems/intersection-of-two-linked-lists/
 // Approach: Two-pointer head switching
 // Time Complexity: O(n + m)
 // Space Complexity: O(1)

@@ -1,4 +1,5 @@
 // LeetCode 1539: Kth Missing Positive Number
+// Link: https://leetcode.com/problems/kth-missing-positive-number/
 // Approach: Binary search using missing count formula
 // Time Complexity: O(log n)
 // Space Complexity: O(1)

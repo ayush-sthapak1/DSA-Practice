@@ -1,4 +1,5 @@
 // LC 3: Longest Substring Without Repeating Characters (Medium)
+// Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
 // Approach: Optimal Sliding Window (Two-Pointer) with O(1) Hash Map Jump
 // Time: O(N) single-pass
 // Space: O(min(N, M)) where M is the character set size (e.g., 256 for extended ASCII)

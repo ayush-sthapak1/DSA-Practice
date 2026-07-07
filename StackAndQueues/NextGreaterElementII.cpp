@@ -1,4 +1,5 @@
 // LeetCode 503: Next Greater Element II
+// Link: https://leetcode.com/problems/next-greater-element-ii/
 // Approach: Monotonic Decreasing Stack + Circular Traversal
 // Time Complexity: O(n)
 // Space Complexity: O(n)

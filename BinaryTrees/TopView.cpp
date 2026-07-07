@@ -1,4 +1,5 @@
 // GFG: Top View of Binary Tree (Medium)
+// Link: https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1
 // Approach: BFS (Level Order Traversal) tracking column index. 
 //           We record the first node we encounter for each column into a sorted std::map.
 // Time: O(N log K) where K is the number of columns (width of tree), since we do a map lookup/insertion for each node.

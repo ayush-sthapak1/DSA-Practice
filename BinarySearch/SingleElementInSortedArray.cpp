@@ -1,4 +1,5 @@
 // LeetCode 540: Single Element in a Sorted Array
+// Link: https://leetcode.com/problems/single-element-in-a-sorted-array/
 // Approach: Binary search using index parity
 // Time Complexity: O(log n)
 // Space Complexity: O(1)

@@ -1,4 +1,5 @@
 // LeetCode 1: Two Sum
+// Link: https://leetcode.com/problems/two-sum/
 // Approach: Use a hashmap to store previously seen elements
 // Time Complexity: O(n)
 // Space Complexity: O(n)

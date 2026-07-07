@@ -1,4 +1,5 @@
 // GFG: Boundary Traversal of Binary Tree (Medium)
+// Link: https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1
 // Approach: Three-stage traversal: Left Boundary (non-leaf) -> Leaves (DFS) -> Right Boundary (non-leaf, reversed)
 // Time: O(N) where N is the number of nodes in the binary tree
 // Space: O(H) recursion stack space where H is the tree height

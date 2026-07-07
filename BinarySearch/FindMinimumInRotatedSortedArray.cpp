@@ -1,4 +1,5 @@
 // LeetCode 153: Find Minimum in Rotated Sorted Array
+// Link: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 // Approach: Binary search with early exit for sorted segment
 // Time Complexity: O(log n)
 // Space Complexity: O(1)

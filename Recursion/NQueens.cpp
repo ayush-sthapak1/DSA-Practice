@@ -1,4 +1,5 @@
 // LC 51: N-Queens (Hard)
+// Link: https://leetcode.com/problems/n-queens/
 // Approach: Backtracking with O(1) Column and Diagonal Lookups
 // Time: O(N!)  Space: O(N)
 

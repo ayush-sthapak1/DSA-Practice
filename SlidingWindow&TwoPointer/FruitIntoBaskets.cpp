@@ -1,4 +1,5 @@
 // LC 904: Fruit Into Baskets (Medium)
+// Link: https://leetcode.com/problems/fruit-into-baskets/
 // Approach: Optimal Sliding Window (Two-Pointer) with Frequency Hash Map
 // Time: O(N) single-pass
 // Space: O(1) auxiliary (map stores at most 3 distinct keys)

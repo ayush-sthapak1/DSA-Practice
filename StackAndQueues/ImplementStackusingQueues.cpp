@@ -1,4 +1,5 @@
 // LeetCode 225: Implement Stack using Queues
+// Link: https://leetcode.com/problems/implement-stack-using-queues/
 // Approach: Single Queue (Push-heavy)
 // Time:
 //   push -> O(n)

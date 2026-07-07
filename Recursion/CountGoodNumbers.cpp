@@ -1,4 +1,5 @@
 // LC 1922: Count Good Numbers
+// Link: https://leetcode.com/problems/count-good-numbers/
 // Approach: Math + Fast Exponentiation
 // Time: O(log n) | Space: O(log n)
 

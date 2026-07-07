@@ -1,4 +1,5 @@
 // LC 124: Binary Tree Maximum Path Sum (Hard)
+// Link: https://leetcode.com/problems/binary-tree-maximum-path-sum/
 // Approach: Optimal Post-Order DFS (Single-Pass Height-style Path Aggregation with Negative Pruning)
 // Time: O(N) where N is the number of nodes
 // Space: O(H) where H is the height of the tree (recursion stack depth)

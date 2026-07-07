@@ -1,4 +1,5 @@
 // LC 144: Binary Tree Preorder Traversal (Easy) - Iterative Version
+// Link: https://leetcode.com/problems/binary-tree-preorder-traversal/
 // Approach: Iterative DFS using an explicit Stack (Root -> Left -> Right)
 // Time: O(N) where N is the number of nodes
 // Space: O(H) where H is the height of the tree (explicit stack size)

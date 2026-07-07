@@ -1,4 +1,5 @@
 // GFG: Children Sum Property in a Binary Tree (Easy)
+// Link: https://www.geeksforgeeks.org/problems/children-sum-property-in-a-binary-tree/1
 // Approach: Short-circuited recursive DFS check.
 // Time: O(N) where N is the number of nodes in the binary tree.
 // Space: O(H) auxiliary space for the recursion stack where H is the height of the tree.

@@ -1,4 +1,5 @@
 // LC 99: Recover Binary Search Tree (Medium)
+// Link: https://leetcode.com/problems/recover-binary-search-tree/
 // Approach: Morris Inorder Traversal to achieve strictly O(1) auxiliary space.
 //           Tracks the previously visited node 'prev' to find sorted violations on the fly.
 // Time: O(N) where N is the number of nodes in the BST.

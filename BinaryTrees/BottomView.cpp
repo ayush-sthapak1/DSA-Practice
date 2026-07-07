@@ -1,4 +1,5 @@
 // GFG: Bottom View of Binary Tree (Medium)
+// Link: https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
 // Approach: BFS (Level Order Traversal) tracking column index. 
 //           We record and overwrite the node value for each column in a sorted std::map.
 // Time: O(N log K) where K is the width of the tree (number of columns).

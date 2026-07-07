@@ -1,4 +1,5 @@
 // LC 222: Count Complete Tree Nodes (Easy)
+// Link: https://leetcode.com/problems/count-complete-tree-nodes/
 // Approach: Height comparison of left and right spines.
 //           If leftmost height == rightmost height, the tree is perfect, return (1 << height) - 1.
 //           Otherwise, recursively count nodes: 1 + countNodes(left) + countNodes(right).

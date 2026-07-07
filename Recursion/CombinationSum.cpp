@@ -1,4 +1,5 @@
 // LC 39: Combination Sum
+// Link: https://leetcode.com/problems/combination-sum/
 // Approach: Backtracking — reuse by staying at same index
 // Time: O(2^(target/min)) Space: O(target/min)
 

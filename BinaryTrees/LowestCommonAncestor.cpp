@@ -1,4 +1,5 @@
 // LC 236: Lowest Common Ancestor of a Binary Tree (Medium)
+// Link: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 // Approach: Single-pass recursive DFS.
 // Time: O(N) where N is the number of nodes in the binary tree.
 // Space: O(H) auxiliary space for the recursion stack where H is the height of the tree.

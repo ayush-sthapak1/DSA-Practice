@@ -1,4 +1,5 @@
 // LeetCode 268: Missing Number
+// Link: https://leetcode.com/problems/missing-number/
 // Approach: Use an auxiliary array to mark seen numbers
 // Time Complexity: O(n)
 // Space Complexity: O(n)

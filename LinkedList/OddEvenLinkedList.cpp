@@ -1,4 +1,5 @@
 // LeetCode 328: Odd Even Linked List
+// Link: https://leetcode.com/problems/odd-even-linked-list/
 // Approach: Pointer skipping (build odd & even chains)
 // Time Complexity: O(n)
 // Space Complexity: O(1)

@@ -1,4 +1,5 @@
 // GFG: All Possible Strings (Power Set / All Subsequences)
+// Link: https://www.geeksforgeeks.org/problems/all-possible-strings/1
 // Approach: Include/Exclude recursion at each index
 // Time: O(n * 2^n)  Space: O(n)
 

@@ -1,4 +1,5 @@
 // LeetCode 704: Binary Search
+// Link: https://leetcode.com/problems/binary-search/
 // Approach: Classic binary search on sorted array
 // Time Complexity: O(log n)
 // Space Complexity: O(1)

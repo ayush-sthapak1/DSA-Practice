@@ -1,4 +1,5 @@
 // LC 144: Binary Tree Preorder Traversal (Easy)
+// Link: https://leetcode.com/problems/binary-tree-preorder-traversal/
 // Approach: Morris Preorder Traversal (threaded binary tree).
 // Time: O(N) where N is the number of nodes (each edge is traversed at most 3 times).
 // Space: O(1) auxiliary space (modifies tree pointers dynamically and restores them).

@@ -1,4 +1,5 @@
 // LeetCode 69: Sqrt(x)
+// Link: https://leetcode.com/problems/sqrtx/
 // Approach: Binary search on answer
 // Time Complexity: O(log x)
 // Space Complexity: O(1)

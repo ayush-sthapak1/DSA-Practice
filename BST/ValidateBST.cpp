@@ -1,4 +1,5 @@
 // LC 98: Validate Binary Search Tree (Medium)
+// Link: https://leetcode.com/problems/validate-binary-search-tree/
 // Approach: Recursive DFS range validation (minVal, maxVal).
 //           Allows early termination as soon as a range violation is encountered.
 // Time: O(N) where N is the number of nodes in the BST.

@@ -1,4 +1,5 @@
 // LeetCode 1752: Check if Array Is Sorted and Rotated
+// Link: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
 // Approach: Traverse the array to detect a break in ascending order,
 // then ensure the remaining elements follow sorted order
 // Time Complexity: O(n)

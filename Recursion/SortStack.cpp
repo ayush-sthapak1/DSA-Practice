@@ -1,4 +1,5 @@
 // GFG: Sort a Stack
+// Link: https://www.geeksforgeeks.org/problems/sort-a-stack/1
 // Approach: Recursion — Sort then Insert
 // Time: O(n²) | Space: O(n)
 

@@ -1,4 +1,5 @@
 // LeetCode 1482: Minimum Number of Days to Make m Bouquets
+// Link: https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/
 // Approach: Binary search on days
 // Time Complexity: O(n log maxDay)
 // Space Complexity: O(1)

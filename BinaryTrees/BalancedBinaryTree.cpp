@@ -1,4 +1,5 @@
  // LC 110: Balanced Binary Tree (Easy)
+// Link: https://leetcode.com/problems/balanced-binary-tree/
 // Approach: Optimal Post-Order DFS (Single-Pass Height & Balance Check)
 // Time: O(N) where N is the number of nodes
 // Space: O(H) where H is the height of the tree (recursion stack depth)

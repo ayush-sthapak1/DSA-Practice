@@ -1,4 +1,5 @@
 // GFG: Subset Sums
+// Link: https://www.geeksforgeeks.org/problems/subset-sums/1
 // Approach: Recursion (Include/Exclude) + sorting output
 // Time: O(2^n log(2^n))  Space: O(n)
 

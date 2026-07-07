@@ -1,4 +1,5 @@
 // LeetCode 206: Reverse Linked List
+// Link: https://leetcode.com/problems/reverse-linked-list/
 // Approach: Iterative pointer reversal using ptr1 and ptr2
 // Time Complexity: O(n)
 // Space Complexity: O(1)

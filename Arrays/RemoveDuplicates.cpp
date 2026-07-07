@@ -1,4 +1,5 @@
 // LeetCode 26: Remove Duplicates from Sorted Array
+// Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 // Approach: Two pointers to overwrite duplicate elements in-place
 // Time Complexity: O(n)
 // Space Complexity: O(1)

@@ -1,4 +1,5 @@
 // LC 1358: Number of Substrings Containing All Three Characters (Medium)
+// Link: https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 // Approach: Optimal Sliding Window (Two-Pointer) with Left-Pointer Cumulative Counting
 // Time: O(N) single-pass
 // Space: O(1) auxiliary (size 3 frequency array)

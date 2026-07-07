@@ -1,4 +1,5 @@
 // GFG: Longest K unique characters substring (Medium)
+// Link: https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring/1
 // Approach: Optimal Sliding Window (Two-Pointer) with Frequency Counting and Exact K Tracker
 // Time: O(N) single-pass
 // Space: O(1) auxiliary (size 26 frequency array)

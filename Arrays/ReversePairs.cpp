@@ -1,4 +1,5 @@
 // LeetCode 493: Reverse Pairs
+// Link: https://leetcode.com/problems/reverse-pairs/
 // Approach: Modified merge sort to count reverse pairs during merge
 // Condition: nums[i] > 2 * nums[j], i < j
 // Time Complexity: O(n log n)

@@ -1,4 +1,5 @@
 // LeetCode 232: Implement Queue using Stacks
+// Link: https://leetcode.com/problems/implement-queue-using-stacks/
 // Approach: Two Stacks (inStack & outStack)
 // Time:
 //   push -> O(1)

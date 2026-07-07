@@ -1,4 +1,5 @@
 // LC 50: Pow(x, n)
+// Link: https://leetcode.com/problems/powx-n/
 // Approach: Fast Exponentiation (Recursive)
 // Time: O(log n) | Space: O(log n)
 

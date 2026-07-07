@@ -1,4 +1,5 @@
 // LeetCode 138: Copy List with Random Pointer
+// Link: https://leetcode.com/problems/copy-list-with-random-pointer/
 // Approach: HashMap (original node → cloned node)
 // Time Complexity: O(n)
 // Space Complexity: O(n)

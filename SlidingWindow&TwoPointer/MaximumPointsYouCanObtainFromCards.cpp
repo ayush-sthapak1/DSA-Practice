@@ -1,4 +1,5 @@
 // LC 1423: Maximum Points You Can Obtain from Cards (Medium)
+// Link: https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
 // Approach: Ultra-Optimal Sliding Window (O(k) Boundary Substitution)
 // Time: O(k) - completely skips traversing the middle cards!
 // Space: O(1) auxiliary

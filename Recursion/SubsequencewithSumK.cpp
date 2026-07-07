@@ -1,4 +1,5 @@
 // GFG: Subsequence with Sum K
+// Link: https://www.geeksforgeeks.org/problems/subsequence-with-sum-k/1
 // Approach: Include/Exclude recursion with early exit
 // Time: O(2^n)  Space: O(n)
 // Note: curr > k pruning assumes non-negative array

@@ -1,4 +1,5 @@
 // LC 297: Serialize and Deserialize Binary Tree (Hard)
+// Link: https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 // Approach: BFS (Level Order Traversal) using queue and stringstream.
 //           Null nodes are represented by "#" and nodes are delimited by commas.
 // Time: O(N) where N is the number of nodes in the binary tree.

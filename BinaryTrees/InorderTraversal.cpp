@@ -1,4 +1,5 @@
 // LC 94: Binary Tree Inorder Traversal (Easy)
+// Link: https://leetcode.com/problems/binary-tree-inorder-traversal/
 // Approach: Recursive Depth-First Search (DFS) - Left -> Root -> Right
 // Time: O(N) where N is the number of nodes
 // Space: O(H) where H is the height of the tree (recursion stack depth)

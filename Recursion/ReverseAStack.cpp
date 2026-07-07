@@ -1,4 +1,5 @@
 // GFG: Reverse a Stack
+// Link: https://www.geeksforgeeks.org/problems/reverse-a-stack/1
 // Approach: Recursion — Insert at Bottom
 // Time: O(n²) | Space: O(n)
 

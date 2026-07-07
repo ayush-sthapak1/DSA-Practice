@@ -1,4 +1,5 @@
 // LeetCode 162: Find Peak Element
+// Link: https://leetcode.com/problems/find-peak-element/
 // Approach: Binary search using slope comparison
 // Time Complexity: O(log n)
 // Space Complexity: O(1)

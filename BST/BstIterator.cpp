@@ -1,4 +1,5 @@
 // LC 173: Binary Search Tree Iterator (Medium)
+// Link: https://leetcode.com/problems/binary-search-tree-iterator/
 // Approach: Controlled inorder traversal using a stack.
 //           Stores only the current search path to keep space within O(H).
 // Time: next() is amortized O(1) time (each node is pushed and popped exactly once).

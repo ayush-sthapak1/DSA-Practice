@@ -1,4 +1,5 @@
 // LC 653: Two Sum IV - Input is a BST (Medium)
+// Link: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
 // Approach: Bidirectional BSTIterator (Two Pointer technique).
 //           One iterator goes forward (ascending), one goes backward (descending).
 // Time: O(N) where N is the number of nodes in the BST (each node is visited at most once).

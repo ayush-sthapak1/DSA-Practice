@@ -1,4 +1,5 @@
 // LC 230: Kth Smallest Element in a BST (Medium)
+// Link: https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 // Approach: Morris Inorder Traversal to achieve O(1) space.
 //           We traverse the tree and increment count on visiting. 
 //           We let the traversal run fully to clean up temporary threads and prevent tree corruption.

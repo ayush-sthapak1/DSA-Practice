@@ -1,4 +1,5 @@
 // LeetCode 35: Search Insert Position
+// Link: https://leetcode.com/problems/search-insert-position/
 // Approach: Binary search
 // Time Complexity: O(log n)
 // Space Complexity: O(1)

@@ -1,4 +1,5 @@
 // LC 105: Construct Binary Tree from Preorder and Inorder Traversal (Medium)
+// Link: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 // Approach: Recursion with inorder index mapping.
 //           The first element of preorder is the root. We partition inorder around the root
 //           to determine the sizes of left and right subtrees and recurse on their index bounds.

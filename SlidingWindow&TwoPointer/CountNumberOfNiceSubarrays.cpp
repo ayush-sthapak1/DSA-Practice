@@ -1,4 +1,5 @@
 // LC 1248: Count Number of Nice Subarrays (Medium)
+// Link: https://leetcode.com/problems/count-number-of-nice-subarrays/
 // Approach: Optimal sliding window using the "At Most K" helper function trick.
 // Mathematically equivalent to Binary Subarrays With Sum (LC 930) by mapping odd -> 1, even -> 0.
 // Time: O(N) dual-pass

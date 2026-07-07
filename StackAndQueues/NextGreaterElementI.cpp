@@ -1,4 +1,5 @@
 // LeetCode 496: Next Greater Element I
+// Link: https://leetcode.com/problems/next-greater-element-i/
 // Approach: Monotonic Decreasing Stack (Right to Left)
 // Time Complexity: O(n)
 // Space Complexity: O(n)

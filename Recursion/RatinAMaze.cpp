@@ -1,4 +1,5 @@
 // GFG: Rat in a Maze
+// Link: https://www.geeksforgeeks.org/problems/rat-in-a-maze/1
 // Approach: In-place Grid Backtracking (DFS) with O(1) String Memory Allocation
 // Time: O(4^(N^2))  Space: O(N^2) stack depth
 

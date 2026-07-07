@@ -1,4 +1,5 @@
 // LC 450: Delete Node in a BST (Medium)
+// Link: https://leetcode.com/problems/delete-node-in-a-bst/
 // Approach: Iterative in-place pointer rewiring.
 //           For nodes with two children, we connect the right child to the rightmost 
 //           node of the left subtree (inorder predecessor) to maintain the BST properties.

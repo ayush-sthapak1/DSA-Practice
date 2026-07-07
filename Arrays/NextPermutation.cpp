@@ -1,4 +1,5 @@
 // LeetCode 31: Next Permutation
+// Link: https://leetcode.com/problems/next-permutation/
 // Approach:
 // 1. Find the first index i from the right where nums[i] < nums[i + 1]
 // 2. Find the smallest element greater than nums[i] to the right

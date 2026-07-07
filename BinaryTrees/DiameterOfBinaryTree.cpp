@@ -1,4 +1,5 @@
 // LC 543: Diameter of Binary Tree (Easy)
+// Link: https://leetcode.com/problems/diameter-of-binary-tree/
 // Approach: Optimal Post-Order DFS (Single-Pass Height & Diameter Calculation)
 // Time: O(N) where N is the number of nodes
 // Space: O(H) where H is the height of the tree (recursion stack depth)

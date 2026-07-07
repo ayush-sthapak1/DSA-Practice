@@ -1,4 +1,5 @@
 // LC 1004: Max Consecutive Ones III (Medium)
+// Link: https://leetcode.com/problems/max-consecutive-ones-iii/
 // Approach: Optimal Sliding Window (Two-Pointer) with Zero Frequency Tracking
 // Time: O(N) single-pass
 // Space: O(1) auxiliary

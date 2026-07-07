@@ -1,4 +1,5 @@
 // LC 662: Maximum Width of Binary Tree (Medium)
+// Link: https://leetcode.com/problems/maximum-width-of-binary-tree/
 // Approach: BFS (Level Order Traversal) with 0-based heap-like indexing.
 //           To prevent integer overflow, we normalize indices of each level by subtracting the minimum index.
 // Time: O(N) where N is the number of nodes in the binary tree.

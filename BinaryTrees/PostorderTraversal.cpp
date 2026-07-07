@@ -1,4 +1,5 @@
 // LC 145: Binary Tree Postorder Traversal (Easy)
+// Link: https://leetcode.com/problems/binary-tree-postorder-traversal/
 // Approach: Recursive Depth-First Search (DFS) - Left -> Right -> Root
 // Time: O(N) where N is the number of nodes
 // Space: O(H) where H is the height of the tree (recursion stack depth)

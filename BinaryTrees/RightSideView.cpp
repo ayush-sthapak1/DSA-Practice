@@ -1,4 +1,5 @@
 // LC 199: Binary Tree Right Side View (Medium)
+// Link: https://leetcode.com/problems/binary-tree-right-side-view/
 // Approach: Right-to-Left Pre-order DFS (Root -> Right -> Left).
 //           We only add the first node we encounter at each depth (when result.size() == row).
 // Time: O(N) where N is the number of nodes in the binary tree.

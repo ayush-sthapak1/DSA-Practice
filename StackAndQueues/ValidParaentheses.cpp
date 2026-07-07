@@ -1,4 +1,5 @@
 // LeetCode 20: Valid Parentheses
+// Link: https://leetcode.com/problems/valid-parentheses/
 // Approach: Stack
 // Time Complexity: O(n)
 // Space Complexity: O(n)
