@@ -10,6 +10,7 @@ public:
     void dfs(int v, vector<bool> &visited, vector<vector<int>> &isConnected) {
         visited[v] = true;
         
+        // Scan the row v in adjacency matrix for neighbors
         for (int i = 0; i < isConnected.size(); i++) {
             if (isConnected[v][i] == 1 && !visited[i]) {
                 dfs(i, visited, isConnected);
@@ -22,6 +23,7 @@ public:
         vector<bool> visited(n, false);
         int count = 0;
         
+        // Iterate through all nodes to count independent components
         for (int i = 0; i < n; i++) {
             if (!visited[i]) {
                 count++;

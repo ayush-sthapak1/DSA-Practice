@@ -9,26 +9,28 @@ class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
         int initColor = image[sr][sc];
+        // Guard to prevent infinite loop if target color is already initial color
         if (initColor == color) return image;
         
-        queue<pair<int,int>>q;
-        q.push({sr,sc});
+        queue<pair<int,int>> q;
+        q.push({sr, sc});
         image[sr][sc] = color;
         
-        int dRow[] = {-1,1,0,0};
-        int dCol[] = {0,0,-1,1};
+        int dRow[] = {-1, 1, 0, 0};
+        int dCol[] = {0, 0, -1, 1};
         while(!q.empty()){
             int i = q.front().first;
             int j = q.front().second;
             q.pop();
 
+            // Visit all adjacent pixels of the initial color
             for(int d = 0; d < 4; d++){
                 int ni = i + dRow[d];
                 int nj = j + dCol[d];
 
                 if(ni >= 0 && ni < image.size() && nj >= 0 && nj < image[0].size() && image[ni][nj] == initColor){
-                    image[ni][nj] = color;
-                    q.push({ni,nj});
+                    image[ni][nj] = color; // Recolor (acts as visited mark)
+                    q.push({ni, nj});
                 }
             }
         }

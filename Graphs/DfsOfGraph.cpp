@@ -8,8 +8,9 @@ class Solution {
   private:
     void dfsHelper(int v, vector<int> &visited, vector<vector<int>> &adj, vector<int> &result) {
         visited[v] = 1;
-        result.push_back(v);
+        result.push_back(v); // Collect node in traversal order
         
+        // Recurse for all unvisited neighbors
         for (int nbr : adj[v]) {
             if (!visited[nbr]) {
                 dfsHelper(nbr, visited, adj, result);
@@ -23,7 +24,7 @@ class Solution {
         vector<int> visited(n, 0);
         vector<int> result;
         
-        dfsHelper(0, visited, adj, result);
+        dfsHelper(0, visited, adj, result); // Start DFS from node 0
         return result;
     }
 };

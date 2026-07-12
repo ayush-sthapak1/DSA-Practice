@@ -9,6 +9,7 @@ class Solution {
 public:
     bool detectCycle(int src, vector<vector<int>>& adj, vector<bool>& vis) {
         vis[src] = true;
+        // Queue stores {node, parent}
         queue<pair<int, int>> q;
         q.push({src, -1});
         
@@ -22,6 +23,7 @@ public:
                     vis[nbr] = true;
                     q.push({nbr, node});
                 }
+                // If neighbor is visited and is not the immediate parent, a cycle is found
                 else if (parent != nbr) {
                     return true;
                 }
@@ -32,18 +34,18 @@ public:
     }
     
     bool isCycle(int V, vector<vector<int>>& edges) {
+        // Build bidirectional adjacency list
         vector<vector<int>> adj(V);
-        
         for (int i = 0; i < edges.size(); i++) {
             int u = edges[i][0];
             int v = edges[i][1];
-            
             adj[u].push_back(v);
             adj[v].push_back(u);
         }
         
         vector<bool> vis(V, false);
         
+        // Loop through all vertices to handle disconnected components
         for (int i = 0; i < V; i++) {
             if (!vis[i]) {
                 if (detectCycle(i, adj, vis)) return true;

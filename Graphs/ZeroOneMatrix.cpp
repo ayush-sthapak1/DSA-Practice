@@ -15,6 +15,7 @@ public:
         // Queue stores coordinate pairs {row, col}
         queue<pair<int,int>> q;
 
+        // Enqueue all 0s and initialize their distances to 0
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
                 if(mat[i][j] == 0) {
@@ -33,6 +34,7 @@ public:
             int i = curr.first;
             int j = curr.second;
 
+            // Check all 4 cardinal neighbors
             for(int d = 0; d < 4; d++) {
                 int ni = i + dRow[d];
                 int nj = j + dCol[d];

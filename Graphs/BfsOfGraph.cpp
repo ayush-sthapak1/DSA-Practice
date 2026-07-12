@@ -10,6 +10,8 @@ class Solution {
         int n = edges.size();
         vector<int> visited(n, 0);
         queue<int> q;
+        
+        // Start traversal from node 0
         q.push(0);
         visited[0] = 1;
         vector<int> result;
@@ -19,6 +21,7 @@ class Solution {
             q.pop();
             result.push_back(curr);
 
+            // Traverse all unvisited neighbors
             for (int i = 0; i < edges[curr].size(); i++) {
                 int nbr = edges[curr][i];
                 if (!visited[nbr]) {

@@ -8,7 +8,7 @@ class Solution {
 private:
     void dfs(int v, vector<bool> &visited, const vector<vector<int>> &adj, vector<int> &comp) {
         visited[v] = true;
-        comp.push_back(v);
+        comp.push_back(v); // Collect node in current component
         
         for (int neighbor : adj[v]) {
             if (!visited[neighbor]) {
@@ -19,6 +19,7 @@ private:
     
 public:
     vector<vector<int>> getComponents(int V, vector<vector<int>> &edges) {
+        // Build bidirectional adjacency list
         vector<vector<int>> adj(V);
         for (const auto &edge : edges) {
             int u = edge[0];
@@ -30,6 +31,7 @@ public:
         vector<bool> visited(V, false);
         vector<vector<int>> result;
 
+        // Traverse all components
         for (int i = 0; i < V; i++) {
             if (!visited[i]) {
                 vector<int> comp;
