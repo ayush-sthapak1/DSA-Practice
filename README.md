@@ -4,7 +4,7 @@ This repository contains my solutions to Data Structures & Algorithms problems,
 mainly from LeetCode, solved using C++.
 
 ## Progress
-- Total problems solved: 150+
+- Total problems solved: 200+
 - Focus: Striver SDE Sheet + Interview patterns
 
 ## Topics Covered
@@ -17,6 +17,7 @@ mainly from LeetCode, solved using C++.
 - Sliding Window & Two Pointer
 - Binary Trees
 - Binary Search Trees
+- Graphs
 
 ## Notes
 - Solutions include time & space complexity
