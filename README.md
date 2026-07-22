@@ -18,6 +18,7 @@ mainly from LeetCode, solved using C++.
 - Binary Trees
 - Binary Search Trees
 - Graphs
+- Strings
 
 ## Notes
 - Solutions include time & space complexity
