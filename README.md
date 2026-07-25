@@ -4,10 +4,12 @@ This repository contains my solutions to Data Structures & Algorithms problems,
 mainly from LeetCode, solved using C++.
 
 ## Progress
+
 - Total problems solved: 200+
 - Focus: Striver SDE Sheet + Interview patterns
 
 ## Topics Covered
+
 - Basics
 - Arrays
 - Binary Search
@@ -21,5 +23,6 @@ mainly from LeetCode, solved using C++.
 - Strings
 
 ## Notes
+
 - Solutions include time & space complexity
 - Clean code written for interview clarity
